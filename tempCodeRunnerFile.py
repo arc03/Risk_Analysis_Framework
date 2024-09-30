@@ -1,0 +1,2 @@
+description_label = tk.Label(main_frame, text=description_text, anchor="w", justify=tk.LEFT, wraplength=1000 , bg="light blue", font=("Helvetica", 14))
+description_label.place(relx=0.05, rely=0.15, anchor=tk.W)
