@@ -10,7 +10,6 @@ def create_transport_tab(parent_frame):
     heading_label = ttk.Label(parent_frame, text="Transport and Fate Analysis", font=("Arial", 30, "bold"), foreground="black")
     heading_label.pack(pady=10, anchor="c")
 
-    # Create radio buttons for Terrestrial and Aqueous options in the same line
     transport_mode_var = tk.StringVar(value="Terrestrial")
     
     radio_frame = tk.Frame(parent_frame, bg="light blue")
@@ -108,17 +107,6 @@ def create_transport_tab(parent_frame):
     # Label to show result
     result_label = tk.Label(parent_frame, text="", bg="light blue", fg="black")
     result_label.pack(pady=10, anchor="w")
-
-    # Image display on the right side
-    # image_path = "graphene.png"
-    # image = Image.open(image_path)
-    # image = image.resize((700, 675))
-    # photo = ImageTk.PhotoImage(image)
-    # image_label = ttk.Label(parent_frame, image=photo)
-    # image_label.image = photo  # Keep a reference to avoid garbage collection
-    # image_label.pack(anchor="ne")
-    # image_label.grid(column=2, row=1, rowspan=8, padx=20)
-    # image_label.grid(column=2, row=2, rowspan=8, padx=20)
 
 # Create main window for testing the tab function
 if __name__ == "__main__":

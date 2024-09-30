@@ -44,25 +44,6 @@ notebook.add(toxicity_frame, text="Toxicity Check", image=toxicity_icon, compoun
 risk_frame = tk.Frame(notebook, bg="light blue")
 notebook.add(risk_frame, text="Risk", image=risk_icon, compound="left")
 
-# Create a notebook for tabs
-
-
-# Create the "About" tab
-# about_frame = tk.Frame(notebook , bg="light blue")
-# notebook.add(about_frame, text="About")
-
-# # Create the "Transport and Fate" tab
-# transport_frame = tk.Frame(notebook , bg="light blue")
-# notebook.add(transport_frame, text="Transport and Fate")
-
-# # Create the "Toxicity Check" tab
-# toxicity_frame = tk.Frame(notebook , bg="light blue")
-# notebook.add(toxicity_frame, text="Toxicity Check")
-
-# Risk_frame = tk.Frame(notebook , bg="light blue")
-# notebook.add(Risk_frame, text="Risk")
-
-# About Tab Content
 # Create a main frame for all the content
 main_frame = tk.Frame(about_frame , bg="light blue")
 main_frame.place(relwidth=1, relheight=1)
