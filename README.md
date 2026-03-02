@@ -1,7 +1,61 @@
-Collaborated with scientists at Defence Research and Development Organisation (CFEES) to design a computational risk assessment system for Graphene Oxide nanomaterials.
-•	Performed extensive literature mining and data extraction from peer-reviewed environmental science and nanotoxicology research papers to construct a structured experimental dataset.
-•	Standardized heterogeneous physicochemical and toxicological parameters (pH, concentration, ionic strength, humic acid, NOM, species sensitivity) into analyzable tabular format using Pandas and NumPy.
-•	Developed a Python-based decision-support application using Tkinter and CustomTkinter with dynamic UI components and input validation.
-•	Implemented rule-based classification logic, threshold filtering, and conditional modeling for toxicity prediction and environmental stability assessment.
-•	Integrated Excel-based data handling (OpenPyXL via Pandas), image visualization (Pillow), exception handling, and data preprocessing pipelines.
-•	Automated parameter evaluation workflows, reducing manual scientific assessment time by 40% and improving reproducibility.
+🧪 Nanomaterial Risk Analysis Framework
+
+📌 Overview
+
+Developed a computational risk assessment system for Graphene Oxide (GO) nanomaterials in collaboration with scientists at the Defence Research and Development Organisation (CFEES).
+The system automates toxicity classification and environmental stability evaluation based on physicochemical parameters.
+
+🔬 Dataset Construction
+
+•	Performed extensive literature mining of peer-reviewed environmental science and nanotoxicology research papers.
+
+•	Extracted and structured experimental parameters into a clean tabular dataset.
+
+•	Standardized heterogeneous variables including: 
+
+  o	pH
+
+  o	Concentration (mg/L)
+
+  o	Ionic Strength
+
+  o	Humic Acid
+
+  o	Natural Organic Matter (NOM)
+
+  o	Species Sensitivity
+
+⚙️ System Design
+
+•	Built a Python-based decision-support application.
+
+•	Implemented dynamic GUI using Tkinter and CustomTkinter.
+
+•	Applied rule-based classification and threshold filtering.
+
+•	Modeled environmental transport & stability (Stable / Not Stable).
+
+•	Integrated input validation and structured exception handling.
+
+
+🛠️ Technologies Used
+
+•	Python
+
+•	Pandas (data structuring & filtering)
+
+•	NumPy (numerical operations)
+
+•	Tkinter / CustomTkinter (GUI)
+
+•	OpenPyXL (Excel handling via Pandas)
+
+•	Pillow (PIL) (image visualization)
+
+📈 Impact
+
+Automated scientific parameter evaluation.
+
+Reduced manual assessment time by 40%.
+
+Improved reproducibility and analytical consistency.
